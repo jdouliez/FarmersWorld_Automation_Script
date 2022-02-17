@@ -1,4 +1,4 @@
-# FarmersWorld Automatisation Script
+# FarmersWorld Automation Script
 
 ## Why this one
 In order to mine automatically, you can find several tools online using differents technologies.  
