@@ -10,7 +10,7 @@ import os
 from datetime import datetime
 
 #### Configuration ####
-FIREFOX_PROFILE_LOCATION = '/root/.mozilla/firefox/fshj8qps.default-esr'
+FIREFOX_PROFILE_LOCATION = '~/.mozilla/firefox/XXXXX.XXXX'  ### CHANGE THIS
 BROWSER_OPENED_DELAY = 3
 #######################
 
