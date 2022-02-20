@@ -10,7 +10,7 @@ import os
 from datetime import datetime
 
 #### Configuration ####
-FIREFOX_PROFILE_LOCATION = '~/.mozilla/firefox/XXXXX.XXXX'  ### CHANGE THIS
+FIREFOX_PROFILE_LOCATION = '/root/.mozilla/firefox/fshj8qps.default-esr'  ### CHANGE THIS
 BROWSER_OPENED_DELAY = 3
 #######################
 
@@ -53,5 +53,8 @@ time.sleep(60 * BROWSER_OPENED_DELAY)
 
 pprint(f"[+] Closing browser")
 driver.close()
+
+pprint(f"[+] Cleaning traces")
+os.system("rm -rf /tmp/tmp*")
 
 print(f"")
