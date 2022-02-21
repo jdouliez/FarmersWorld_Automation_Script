@@ -40,11 +40,18 @@ Read this to find you default profile location : [https://www.howtogeek.com/2555
 ## How to use
 ### Add crontab
 Add this line in you crontab jobs :   
-`*/15 * * * * python3 ~/FarmersWorld/fw-auto.py >> ~/FarmersWorld/fw-auto.log 2>&1`
+`*/15 * * * * python3 ~/FarmersWorld/fw-autorun.py >> ~/FarmersWorld/fw.log 2>&1`
 ```bash
 crontab -e
 ```
 This will run the script every `15 minutes`.
+
+### Config
+Create & Edit your config file
+
+```bash
+cp config-sample.py config.py
+```
 
 ### Firefox
 This tool uses Firefox but feel free to switch to Chrome or other browsers.  
