@@ -23,6 +23,8 @@ Install `python3` and `pip3`...
 ```bash 
 sudo apt install -y python3 python3-pip
 ```
+### msmtp
+The tool sends email using msmtp. Be sure you have msmtp up & running to send email using this command line : `echo "TEST" | msmtp my-email-address@nsa.com`
 
 ### Requirements
 Install project dependencies... 
